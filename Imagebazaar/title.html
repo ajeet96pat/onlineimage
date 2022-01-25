@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width ,initial-scale=1"/>
+<meta charset="utf-8">
+<title>Online Image</title>
+<link href="css/title.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="Background/footerlogo.png"/>
+
+
+</head>
+
+<body>
+<div class="main_wrapper">
+<div id="container">
+<nav>
+<ul class="image" id="image_menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Testimonials</a></li>
+<li><a href="#">Press Releases</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+<div id="header">
+<h1>Online<span>Image</span></h1>
+<h2>We offer world's largest collection of Indian images, pictures, concepts and ideas.</h2>
+</div>
+
+<div id="picimage">
+
+<img class="mySlides" src="Background/9.png"/>
+<img class="mySlides" src="Background/10.png"/>
+<img class="mySlides" src="Background/11.png"/>
+<img class="mySlides" src="Background/1.png" />
+
+</div>
+<script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(slideshow, 2000);
+}
+</script>
+
+<div id="content">
+
+<div class="content_photo">
+<div class="brick">
+<div class="content_image">
+
+<a href="#"><img src="Background/2.png" ></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/3.png"></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/4.png"></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/5.png"></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/6.png"></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/cheers_839865_960_720.jpg"width="220px" height="110px"></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/7.png"></a>
+
+</div>
+<div class="content_image">
+<a href="#"><img src="Background/8.png"></a>
+</div>
+</div>
+</div>
+</div>
+<div id="content_stories">
+<div class="brick">
+<div class="content_imagedetail">
+
+<div class="content_pic">
+
+<a href="#"><img src="Background/12.png" ></a>
+<div class="Content_text">
+<h2><a href="#">Beauty & Fashion</a></h2>
+</div>
+</div>
+<div class="content_pic">
+<a href="#"><img src="Background/13.png"></a>
+<div class="Content_text">
+<h2><a href="#">Food & Drink</a></h2>
+</div>
+</div>
+<div class="content_pic">
+<a href="#"><img src="Background/14.png" ></a>
+<div class="Content_text">
+<h2><a href="#">Indian Culture</a></h2>
+</div>
+</div>
+<div class="content_pic">
+<a href="#"><img src="Background/15.png"></a>
+<div class="Content_text">
+<h2><a href="#">Health & Fitness </a></h2>
+</div>
+</div>
+<div class="content_pic">
+<a href="#"><img src="Background/16.png"></a>
+<div class="Content_text">
+<h2><a href="#">Education & Learning</a></h2>
+</div>
+</div>
+<div class="content_pic">
+
+<a href="#"><img src="Background/17.png"></a>
+<div class="Content_text">
+<h2><a href="#">View-More</a></h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<p><a href="#"><img src="Background/twitter.png" /></a>&nbsp;<a href="#"><img src="Background/facebook.png" /></a>&nbsp;<a href="#"><img src="Background/instagram.png"/></a></p>
+<p><a href="#">Home</a> | <a href="#">AboutUs</a> | <a href="#">Testimonials</a> | <a href="#">PressRelease</a> | <a href="#">Contact Us</a></p>
+<p>Copyright &copy; Ajeet Patel| <a href="#">Images</a> | <a href="#">LatestUpdates</a> | <a href="#">Terms and Conditions</a></p>
+				</footer>		
+			</div>		
+
+</div>
+
+</body>
+</html>
